@@ -11,7 +11,7 @@ function OnSuccess()
   console.log(`success`)
 }
 
-function OnSuccess()
+function OnError()
 {
   console.log(`error`)
 }
