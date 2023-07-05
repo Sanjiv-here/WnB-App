@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TASK1
+        </title>
+        <style>
+            p{
+                display:inline-block;
+                margin-top: 0px;
+            }
+            .input{
+                margin-top: 5px;
+            }
+
+            .display{
+                margin-top: 5px;
+            }
+
+            .outputText,
+            .outputDisplay{
+                display:inline-block;
+                vertical-align: top;
+            }
+            
+        </style>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div >
+            <input type="text" class="input" placeholder="SEARCH">
+            <button class="submit">SUBMIT</button>
+            <input type="button" value="CLEAR LIST" class="clear">
+        </div>
+
+        <div class="display">
+            <div class="outputText">Output:</div>
+            <div class="outputDisplay"><p class="output"></p></div>
+        </div>
+    </body>
+</html>
